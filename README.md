@@ -1,10 +1,10 @@
-# DAO Registry - smart contract
+# DAO Registry - Solidity smart contract
 
 This smart contract serves as a decentralized autonomous organization (DAO) registry for the different types of organizations.
 
 ## Development status
 
-Working smart contract with some deployment bugs - please see [**TODO**](./TODO.md) file
+Working version done.
 
 ## Installation
 
@@ -46,8 +46,8 @@ npm i
 1. Create the ".secret" file and put there your wallet mnemonic phrase (24 words) - you need to have some gas on it
 2. Register on etherscan.io, polygonscan.com, bscscan.com etc. (depends on which blockchain you'd like to deploy these smart contracts on) and create your new API key
 3. Create a file named ".apikey_*" and add your API key on the first line of this file ("*" means block explorer name, e.g.: etherscan, polygonscan, bscscan ...)
-4. Edit the "deploy.js" file in /scripts file and set contracts variables depending on your needs
-5. Install dependencies and run deploy script:
+4. Edit the "deploy.js" file and set the contract variables depending on your needs
+5. Install the dependencies and run the deploy script using this command:
 
 ```console
 ./deploy.sh
