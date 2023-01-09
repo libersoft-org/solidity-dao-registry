@@ -4,7 +4,7 @@ This smart contract serves as a decentralized autonomous organization (DAO) regi
 
 ## Development status
 
-- Working smart contract with some deployment bugs - please see [**TODO**](./TODO.md) file
+Working smart contract with some deployment bugs - please see [**TODO**](./TODO.md) file
 
 ## Installation
 
